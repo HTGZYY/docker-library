@@ -1,0 +1,19 @@
+{
+  "name": "kaspersky",
+  "trademark": "Kaspersky",
+  "release": true,
+  "fork_url": "https://www.kaspersky.com/",
+  "docker_url": "https://hub.docker.com/r/tabledevil/kaspersky/tags",
+  "edition": [
+    {
+      "dist": "community",
+      "version": ["latest"]
+    }
+  ],
+  "requirements": {
+    "cpu": "2",
+    "memory": "4",
+    "disk": "1",
+    "url": "https://www.kaspersky.com/"
+  }
+}

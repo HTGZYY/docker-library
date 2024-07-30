@@ -3,10 +3,11 @@
   "trademark": "Joomla",
   "release": true,
   "fork_url": "https://github.com/joomla-docker/docker-joomla",
+  "docker_url": "https://hub.docker.com/r/bitnami/joomla/tags",
   "edition": [
     {
       "dist": "community",
-      "version": ["5.0.3","latest"]
+      "version": ["5.1.2","latest"]
     }
   ],
   "requirements": {

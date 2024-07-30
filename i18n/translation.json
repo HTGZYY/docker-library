@@ -324,8 +324,8 @@
         "KAFKA BROKERS"
     ],
     "W9_LOGIN_GET_Kibaba_TOKEN": [
-        "ES 获取 KIBANA TOKEN 方法",
-        "ES GET KIBANA TOKEN METHOD"
+        "ES GET KIBANA TOKEN METHOD",
+        "ES 获取 KIBANA TOKEN 方法"
     ],
     "W9_WS_PORT_SET": [
         "WEB SOCKET PORT",
@@ -366,5 +366,9 @@
     "W9_LOGIN_ConnectURL": [
         "LOGIN OONNECT URL",
         "登陆连接地址"
+    ],
+    "W9_BROKER_PORT_SET": [
+        "BROKER PORT",
+        "代理监听端口"
     ]
 }

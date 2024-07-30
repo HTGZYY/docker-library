@@ -1,0 +1,19 @@
+# image: https://hub.docker.com/r/portkeyai/gateway
+# compose: https://raw.githubusercontent.com/Portkey-AI/gateway/main/docker-compose.yaml
+
+version: '3.8'
+
+services:
+  web:
+    image: $W9_REPO:$W9_VERSION
+    container_name: $W9_ID
+    ports:
+      - "$W9_HTTP_PORT_SET:8787"
+    restart: unless-stopped
+    env_file: .env
+    
+networks:
+  default:
+    name: $W9_NETWORK
+    external: true
+

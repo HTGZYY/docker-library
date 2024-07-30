@@ -1,8 +1,9 @@
 {
   "name": "frappe",
   "trademark": "Frappe",
-  "release": true,
+  "release": false,
   "fork_url": "https://github.com/frappe/frappe_docker.git",
+  "docker_url": "https://hub.docker.com/r/frappe/bench/tags",
   "edition": [
     {
       "dist": "community",
