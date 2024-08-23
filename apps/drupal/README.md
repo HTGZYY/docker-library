@@ -3,12 +3,12 @@
 This is an **Docker Compose solution** powered by [Websoft9](https://www.websoft9.com) based on Docker for Drupal:
 
 
- - community:  11, 10, latest
+ - community:  11.0.1-apache, 10.3.2-apache
 
 
 ## System Requirements
 
-The following are the minimal [recommended requirements](https://www.drupal.org/docs/user_guide/en/install-requirements.html):
+The following are the minimal [recommended requirements]():
 
 * **RAM**: 1 GB or more
 * **CPU**: 1 cores or higher
